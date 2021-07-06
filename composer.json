@@ -1,0 +1,25 @@
+{
+  "name": "faisalrehmanid/fr-db",
+  "description": "This library provide simple functions to query database",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Faisal Rehman",
+      "email": "faisalrehmanid@hotmail.com"
+    }
+  ],
+  "keywords": [
+    "Database",
+    "MySQL",
+    "Oracle"
+  ],
+  "autoload": {
+    "psr-4": {
+      "FR\\Db\\": "src/"
+    }
+  },
+  "require": {
+	"php": ">=5.4.0",  
+    "laminas/laminas-db": ">=2.5"
+  }
+}
